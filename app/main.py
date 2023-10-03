@@ -14,7 +14,7 @@ from langchain.chat_models import ChatOpenAI
 from langchain.agents.agent_types import AgentType
 from langchain.llms import OpenAI
 import pandas as pd
-api_key = "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"
+api_key = "xxxx"
 chat_model = ChatOpenAI(openai_api_key=api_key)
 
 
