@@ -10,6 +10,4 @@ amount,
 isFlaggedFraud,isFraud,oldbalanceDest,oldbalanceOrg,newbalanceDest,newbalanceOrig,type1,step
 ```
 
-Person have properties name
-Account have properties name
 Generate  cypher to query follow question '{question}'  
