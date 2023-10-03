@@ -1,21 +1,15 @@
-give the neo4j schema below
-```
-Node1,relation,Node2
+give the neo4j schema look like triple backtick
+```Node1,relation,Node2
+Person,USE,Account
 Account,TRANSACTION,Account
 ```
 
 each TRANSACTION have properties follow
+```
+amount,
+isFlaggedFraud,isFraud,oldbalanceDest,oldbalanceOrg,newbalanceDest,newbalanceOrig,type1,step
+```
 
-amount as Integer,
-isFlaggedFraud as Integer,
-isFraud as Integer,
-oldbalanceDest as Integer,
-oldbalanceOrg as Integer,
-newbalanceDest as Integer,
-newbalanceOrig as Integer,
-type1 as String,
-step as String
-
-
-Generate  cypher to query follow question '{question}'
-If code use WITH function must include r1 in this line
+Person have properties name
+Account have properties name
+Generate  cypher to query follow question '{question}'  
