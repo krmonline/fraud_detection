@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  fraud_detection:
+    image: fraud_detection
+    ports:
+      - 9654:9654
+    volumes:
+      - ./app:/code/app
