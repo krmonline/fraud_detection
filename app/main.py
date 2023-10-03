@@ -51,7 +51,7 @@ def prepAnswer(answer):
     return "\n".join(arr_code[:])
 
 def combinePrompt(question):
-    prompt_template = open("./prompt_template.txt").read().format(question=question)
+    prompt_template = open("./app/prompt_template.txt").read().format(question=question)
     return prompt_template
 
 @app.post("/query")
